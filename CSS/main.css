@@ -1,0 +1,133 @@
+.nav {
+  background-color: orange;
+  position: fixed;
+  width: 100%;
+  opacity: 0.8;
+
+}
+
+.nav ul {
+  display: inline-block;
+}
+
+
+.nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 35px;
+  height: 1px;
+}
+
+.nav img {
+  width: 55px;
+  height: 25px;
+  display: inline-block;
+  border: 1px solid black;
+  border-color: black;
+}
+
+.right {
+  text-align: right;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 20px;
+  margin-left: 500px;
+
+}
+
+.search {
+  float: right;
+  padding: 10px;
+  margin-top: 100px;
+
+}
+
+.search input, button {
+  padding: 15px;
+}
+
+.search input {
+  margin-right: 0;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.search button {
+  margin-left: 0;
+  background-color: #fff;
+  border-color: black;
+  border: 0;
+
+}
+
+section div {
+  display: inline-block;
+}
+
+.orange img {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  margin-top: 100px;
+}
+
+.note {
+  display: inline-block;
+}
+
+.note img {
+  width: 55px;
+  height: 25px;
+  display: inline-block;
+  padding: 0 0 75px 300px;
+  margin-top: 0;
+
+
+}
+
+.note p {
+  display: inline-block;
+  text-align: left;
+  font-size: 35px;
+  color: orange;
+  margin-top: 0;
+  padding: 0 0 50px 0;
+  font-family: 'inconsolata';
+
+}
+
+.note button.get {
+  float:right;
+  margin: 0 50px 25px 0;
+  padding: 10px 80px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.note button.view {
+  float:right;
+  margin: 0 50px 25px 0;
+  padding: 10px 80px;
+  background-color: #138F82;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.note span {
+  color: #138F82;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #138F82;
+  color: #138F82;
+  margin-bottom: 0;
+  padding: 25px;
+}
+
+.footer h1 {
+  margin: 0;
+  padding: 0;
+}
